@@ -2,9 +2,9 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import LoginScreen from './app/(tabs)/screens/LoginScreen';
-import HomeScreen from './app/(tabs)/screens/HomeScreen';
-import MiniAppScreen from './app/(tabs)/screens/MiniAppScreen';
+import LoginScreen from './app/screens/LoginScreen';
+import HomeScreen from './app/screens/HomeScreen';
+import MiniAppScreen from './app/screens/MiniAppScreen';
 
 export type RootStackParamList = {
   Login: undefined;
