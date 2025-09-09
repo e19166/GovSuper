@@ -10,10 +10,9 @@ export default function HomeScreen() {
         onPress={() => router.push("/screens/MiniAppScreen")}
       >
         <Text style={styles.cardTitle}>Mini App</Text>
-        <Text style={styles.cardDesc}>Click to open the Mini App</Text>
+        
       </TouchableOpacity>
       <Button title="Go to Login" onPress={() => router.push("/screens/LoginScreen")} />
-      <Button title="Go to Mini App" onPress={() => router.push("/screens/MiniAppScreen")} />
     </View>
   );
 }
