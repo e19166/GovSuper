@@ -5,7 +5,7 @@ export default function MiniAppScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>This is the Mini App Screen</Text>
-      <Button title="Go to Login" onPress={() => router.push("/screens/LoginScreen")} />
+      
       <Button title="Go to Home" onPress={() => router.push("/screens/HomeScreen")} />
     </View>
   );
